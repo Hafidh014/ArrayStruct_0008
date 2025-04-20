@@ -15,7 +15,7 @@ struct Mahasiswa
 };
 int main()
 {
-    // membuat object struct dalam array 
+    // membuat object struct dalam array object
     Mahasiswa mhs[2];
     for (int i = 0; i <2; i++)
     {
@@ -29,3 +29,4 @@ int main()
         cout <<"Masukan provisi = ";
         cin >> mhs[i].alamat.provinsi;
     }
+    
